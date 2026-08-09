@@ -7,6 +7,22 @@
             {{ if $isHome }}
             <h1 class="banner-title">{{ .Site.Title }}</h1>
             <p class="banner-desc">To Promote, Elevate, and Evolve VFX/CG Pipelines</p>
+            
+            <table class="program-table">
+                <tr>
+                    <td class="program-cell program-cfp">
+                        <h3>Call for Papers</h3>
+                        <p>Submissions are now open to speak at The Pipeline Conference 2026, on September 17 in Vancouver, BC. Please fill in the form below with your talk concept, and our friendly Program Committee will reach out to work with you to develop a talk for the event. If your talk isn't selected for the in-person programme, you'll be kept in consideration to join our Online Speaker Series, which runs throughout the year!</p>
+                        <a class="btn btn-transparent" href="https://docs.google.com/forms/d/e/1FAIpQLScu_9FE_WsHh6ftdmhoJ3pll-PwLmpax1uJrzsejPVAKxu9ag/viewform" target="_blank" rel="noopener noreferrer">Submit your talk proposal</a>
+                    </td>
+                    <td class="program-cell program-awards">
+                        <h3>The Pipeline Awards</h3>
+                        <p>Submissions are now open to submit a Pipeline Project or individual Pipeline Hero to our independent panel of judges, for a chance at winning this year's Pipeline Awards. Click below to visit our Pipeline Awards page and submit a nomination in either category.</p>
+                        <a class="btn" href="/pipeline-awards/">Take me there!</a>
+                    </td>
+                </tr>
+            </table>
+            
             <div class="banner-btn-wrap">
                 <a class="btn btn-transparent" href="https://newsletter.pipedev.org/forms/nfrm_BzLMaLXv" target="_blank" rel="noopener noreferrer">Join our newsletter to receive updates!</a>
             </div>
@@ -14,6 +30,52 @@
             <h1 class="banner-title">{{ .Title }}</h1>
             <p class="banner-breadcrumb"><a href="/">Home</a> &rarr; {{ .Title }}</p>
             {{ end }}
+        </div>
+    </div>
+    
+    <script>
+    (function() {
+        var targetDate = new Date("2026-09-17T08:00:00-07:00").getTime();
+        
+        function updateCountdown() {
+            var now = new Date().getTime();
+            var distance = targetDate - now;
+            
+            if (distance < 0) {
+                document.querySelectorAll('.countdown-timer').forEach(function(el) {
+                    el.innerHTML = '<span>The Pipeline Conference 2026 has started!</span>';
+                });
+                return;
+            }
+            
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+            document.querySelectorAll('.countdown-timer').forEach(function(el) {
+                el.innerHTML = '<div class="countdown-block"><span class="countdown-value">' + days + '</span><span class="countdown-label">Days</span></div>' +
+                               '<div class="countdown-block"><span class="countdown-value">' + hours + '</span><span class="countdown-label">Hours</span></div>' +
+                               '<div class="countdown-block"><span class="countdown-value">' + minutes + '</span><span class="countdown-label">Mins</span></div>' +
+                               '<div class="countdown-block"><span class="countdown-value">' + seconds + '</span><span class="countdown-label">Secs</span></div>';
+            });
+            
+            setTimeout(updateCountdown, 1000);
+        }
+        
+        updateCountdown();
+    })();
+    </script>
+    
+    <div class="hero-full-width-section">
+        <div class="save-date-banner">
+            Sept 17, 2026 - In Person Vancouver BC - Save the date!
+        </div>
+    </div>
+    
+    <div class="countdown-full-width">
+        <div class="container">
+            <div class="countdown-timer"></div>
         </div>
     </div>
 </div>

@@ -6,7 +6,7 @@ author: "Fran"
 
 ## TPC 2026 online programme
 
-Our two free online half-days are **The Agentic Pipeline** on Tuesday 20 October and **Core Pipeline Services** on Tuesday 27 October, both 9:00am – 12:00pm Pacific Time. The full run of show is on the [schedule page](/2026-event-schedule/). Registration opens shortly — [subscribe to the newsletter](https://newsletter.pipedev.org/forms/nfrm_BzLMaLXv) and you will get the link first.
+Our two free online half-days are **The Agentic Pipeline** on Tuesday 20 October and **Core Pipeline Services** on Tuesday 27 October, both 9:00am – 12:00pm Pacific Time. Both are free, and registration is open: sign up for [The Agentic Pipeline](https://luma.com/9kqv63oh) and [Core Pipeline Services](https://luma.com/ofvxloqb) on Luma. The full run of show is on the [schedule page](/2026-event-schedule/).
 
 ### The Agentic Pipeline — half-day one
 

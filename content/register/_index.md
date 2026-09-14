@@ -8,12 +8,12 @@ author: "anoopak"
 
 Our in-person conference on 17 September 2026 was cancelled. The programme is running online instead, as two free half-days on Tuesday 20 and Tuesday 27 October, plus the Pipeline Awards Show in December. There is no ticket price and no travel.
 
-Both half-days now have dates and a full line-up. **Registration links open shortly** — the fastest way to get them is to [subscribe to the newsletter](https://newsletter.pipedev.org/forms/nfrm_BzLMaLXv), where subscribers get each link before it goes anywhere else, or to join us on [Discord](https://discord.gg/PU8hygUfbf).
+Both half-days have dates, a full line-up and **open registration** — they are free, and you can sign up now on Luma. To hear about the Awards Show and everything after it, [subscribe to the newsletter](https://newsletter.pipedev.org/forms/nfrm_BzLMaLXv) or join us on [Discord](https://discord.gg/PU8hygUfbf).
 
 | Event | When | Register |
 | --- | --- | --- |
-| The Agentic Pipeline (half-day one) | Tuesday 20 October 2026, 9:00am – 12:00pm Pacific | Opens soon |
-| Core Pipeline Services (half-day two) | Tuesday 27 October 2026, 9:00am – 12:00pm Pacific | Opens soon |
+| The Agentic Pipeline (half-day one) | Tuesday 20 October 2026, 9:00am – 12:00pm Pacific | [Register free on Luma](https://luma.com/9kqv63oh) |
+| Core Pipeline Services (half-day two) | Tuesday 27 October 2026, 9:00am – 12:00pm Pacific | [Register free on Luma](https://luma.com/ofvxloqb) |
 | DPPA Online Speaker Series — Alex Hughes | Tuesday 20 October 2026, 2:00pm Pacific | [Eventbrite](https://www.eventbrite.com/e/large-scale-cloud-native-radiance-field-training-for-streamable-assets-tickets-1994577276326?aff=TPCWebsite) |
 | The Pipeline Awards Show | December 2026, date TBA | Opens soon |
 

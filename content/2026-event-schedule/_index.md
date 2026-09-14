@@ -15,7 +15,8 @@ programme:
       time: "09:00 – 12:00 Pacific Time"
       format: "Online · Free to attend · Recorded"
       accent: "cyan"
-      cta_pending: "Registration opens soon"
+      cta_text: "Register free on Luma"
+      cta_url: "https://luma.com/9kqv63oh"
       body: "Agents are turning up in production pipelines faster than anyone has written the rules for them. Three sessions on the work that puts them under pipeline control — from why the prompt is the wrong place for it, to a studio and a games publisher who have built the alternative."
       sessions:
         - tag: "Keynote"
@@ -46,7 +47,8 @@ programme:
       time: "09:00 – 12:00 Pacific Time"
       format: "Online · Free to attend · Recorded"
       accent: "amber"
-      cta_pending: "Registration opens soon"
+      cta_text: "Register free on Luma"
+      cta_url: "https://luma.com/ofvxloqb"
       body: "The unglamorous half of the job, taken seriously: the format, the storage and the automation that everything else in a studio sits on top of. Classic Pipeline Conference content on the practical problems that decide whether a show ships."
       sessions:
         - title: "Roadmap & Strategy to Accelerate OpenUSD Adoption within Pipelines"
@@ -96,7 +98,7 @@ programme:
       body: "Our awardees' work on screen, each of them speaking directly to the audience, messages from the judges, and open rooms on Discord afterwards. Nominations are closed and our independent panel has made its decisions."
 ---
 
-Registration for the two half-days opens shortly, and links will be posted here and sent to [newsletter](https://newsletter.pipedev.org/forms/nfrm_BzLMaLXv) subscribers first.
+Registration for both half-days is open and free — sign up on Luma for [The Agentic Pipeline](https://luma.com/9kqv63oh) and [Core Pipeline Services](https://luma.com/ofvxloqb). [Newsletter](https://newsletter.pipedev.org/forms/nfrm_BzLMaLXv) subscribers hear about everything else first.
 
 ---
 

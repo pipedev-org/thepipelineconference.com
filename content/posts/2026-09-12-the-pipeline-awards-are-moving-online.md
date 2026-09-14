@@ -1,5 +1,5 @@
 ---
-title: "The Pipeline Awards are moving online — and getting their own show"
+title: "The Pipeline Awards are moving online, and getting their own show!"
 date: 2026-09-12T10:00:00
 author: "Liviu Constantinescu"
 summary: "The tenth Pipeline Awards were going to close out a long day in Vancouver. Instead they are getting a produced show of their own in December, streamed to everyone, with the awardees speaking directly to the audience and open rooms afterwards to talk to them."
@@ -12,7 +12,7 @@ Our in-person conference on 17 September has been cancelled, and the 2026 progra
 
 ## What changes
 
-**The Awards are now their own event.** In December we are closing out the 2026 programme with a featured Awards Show, streamed on [The Pipeline Conference YouTube channel](https://www.youtube.com/@ThePipelineConference). Not a slide at the end of a session — a produced show, with the time and attention the work deserves.
+**The Awards are now their own event.** In December we are closing out the 2026 programme with a featured Awards Show, streamed on [The Pipeline Conference YouTube channel](https://www.youtube.com/@ThePipelineConference). We're levelling up from a slide at the end of a session to a produced show, with the time and attention the work deserves.
 
 **The awardees speak for themselves.** Every awardee will have their work on screen and will speak directly to the audience from wherever they are, alongside messages from our judges. If you have ever watched an awards ceremony where someone else reads a one-line summary of a year of work, you will understand why this matters to us.
 

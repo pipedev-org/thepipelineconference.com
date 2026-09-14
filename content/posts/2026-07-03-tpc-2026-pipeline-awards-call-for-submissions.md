@@ -22,7 +22,7 @@ For innovative pipeline-related projects that have made a significant impact on 
 
 ### 🏆 Pipeline Hero of the Year
 
-For an individual or team whose contributions to VFX, animation, or immersive pipelines have helped advance the industry—through technology, collaboration, research, community building, or education.
+For an individual or team whose contributions to VFX, animation, or immersive pipelines have helped advance the industry. Highlighting their impact through technology, collaboration, research, community building, or education.
 
 ---
 

@@ -8,11 +8,11 @@ author: "Fran"
 
 <p><img src="/img/miris-logo.svg" alt="Miris" width="260" style="margin: 8px 0 22px;" /></p>
 
-The Digital Production Pipeline Association is entirely volunteer-run and volunteer-funded. Everything we put on exists because people give up their evenings for it — and because organisations like [Miris](https://www.miris.com/) decide it is worth supporting.
+The Digital Production Pipeline Association is entirely volunteer-run and volunteer-funded. Everything we work on exists because people give up their evenings for it, and because organisations like [Miris](https://www.miris.com/) decide it is worth supporting.
 
 **Miris** builds 3D asset streaming at internet scale, and they have backed our community this year in several places:
 
-- **Beers of a Feather at SIGGRAPH 2026** in Los Angeles — our annual social, and the night that closed out our full day of Pipeline sessions
+- **Beers of a Feather at SIGGRAPH 2026** in Los Angeles: our annual social, and the night that closed out our full day of Pipeline sessions
 - **The Pipeline Birds of a Feather day** at SIGGRAPH 2026
 - **The DPPA Online Speaker Series**, sponsoring our October session
 
@@ -28,7 +28,7 @@ with **Alex Hughes**, Senior Software Engineer at Miris
 
 ### Sponsor us
 
-Sponsorship is our lifeblood. If your organisation has something worth putting in front of the people who choose the render farm, the storage, the asset manager and the cloud, we would love to hear from you — sessions across our 2026 online programme and the Pipeline Awards Show are open to sponsor.
+Sponsorship is our lifeblood. If your organisation has something worth putting in front of the people who choose the render farm, the storage, the asset manager and the cloud, we would love to hear from you! Sessions across our 2026 online programme and the Pipeline Awards Show are open to sponsorship.
 
 Get in touch at [info@thepipelineconference.com](mailto:info@thepipelineconference.com).
 

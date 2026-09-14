@@ -6,7 +6,7 @@ author: "Fran"
 
 ## TPC 2026 online programme
 
-Our two free online half-days are **The Agentic Pipeline** on Tuesday 20 October and **Core Pipeline Services** on Tuesday 27 October, both 9:00am – 12:00pm Pacific Time. The full run of show is on the [schedule page](/2026-event-schedule/). Registration opens shortly — [subscribe to the newsletter](https://newsletter.pipedev.org/forms/nfrm_BzLMaLXv) and you will get the link first.
+Our two free online half-days are **The Agentic Pipeline** on Tuesday 20 October and **Core Pipeline Services** on Tuesday 27 October, both 9:00am – 12:00pm Pacific Time. The full run of show is on the [schedule page](/2026-event-schedule/). Registration opens shortly! [Subscribe to the newsletter](https://newsletter.pipedev.org/forms/nfrm_BzLMaLXv) and you will get the link first.
 
 ### The Agentic Pipeline — half-day one
 
@@ -16,7 +16,7 @@ Our two free online half-days are **The Agentic Pipeline** on Tuesday 20 October
 **Keynote — [Hanno Basse](https://www.linkedin.com/in/hannobasse/)**
 This keynote deconstructs generative models from the pixel up, exposing why their built-in limitations require us to move control out of the prompt and back into our own pipelines.
 
-**[Bert Van Brande](https://www.linkedin.com/in/bertvanbrande/) and Fermi Perumal — Stellar Creative Labs, Vancouver**
+**[Bert Van Brande](https://www.linkedin.com/in/bertvanbrande/) and [Fermi Perumal](https://www.linkedin.com/in/fermiperumal/) — Stellar Creative Labs, Vancouver**
 Stellar Creative Labs, a Vancouver-based animation studio, walks through the process and the journey of developing governance, controls and artist-centric AI workflows — embedding generative workflows directly into established creative production pipelines. Together, these applications help artists retain control over asset creation, rights management and model behaviour.
 
 **[Cyrus Rahgoshay](https://www.linkedin.com/in/cyrusrahgoshay/) — Ubisoft**
@@ -36,7 +36,7 @@ A structured, four-stage engagement that moves teams from initial evaluation to 
 **[Alan McSeveney](https://www.linkedin.com/in/alanmcseveney/) — previously CTO at Preymaker and Head of Technology at The Mill**
 Alan McSeveney co-founded the wholly cloud-native studio Preymaker and spent over a decade leading technology at The Mill. He shares how unifying studio storage into a single high-performance architecture eliminates data bottlenecks across complex VFX rendering, real-time playback and cloud-bursting pipelines — and how removing those I/O limits lets production teams scale traditional visual effects while preparing the same infrastructure for next-generation generative AI workloads.
 
-**[Cole Pearsall](https://www.linkedin.com/in/cole-pearsall/)**
+**[Cole Pearsall](https://www.linkedin.com/in/cole-pearsall/) — Founder & CEO at Symbiote**
 *Introducing Agentic Workflows into Core Pipeline Automation & Governance*
 Bringing an agentic QC capability to life means shifting from rigid, hardcoded scripts to a secure multi-agent architecture grounded in studio-specific knowledge. By pairing specialised AI agents with lightweight local proxies, studios can run complex DCC checks and scene evaluations directly on artist workstations without exposing proprietary data. The approach automates tedious layout-to-animation handoffs in seconds, delivering clear, evidence-based pass/fail reports, and scales across other pipeline bottlenecks.
 

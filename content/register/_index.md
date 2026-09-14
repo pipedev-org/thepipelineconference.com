@@ -8,7 +8,7 @@ author: "anoopak"
 
 Our in-person conference on 17 September 2026 was cancelled. The programme is running online instead, as two free half-days on Tuesday 20 and Tuesday 27 October, plus the Pipeline Awards Show in December. There is no ticket price and no travel.
 
-Both half-days now have dates and a full line-up. **Registration links open shortly** — the fastest way to get them is to [subscribe to the newsletter](https://newsletter.pipedev.org/forms/nfrm_BzLMaLXv), where subscribers get each link before it goes anywhere else, or to join us on [Discord](https://discord.gg/PU8hygUfbf).
+Both half-days now have dates and a full line-up. **Registration links open shortly.** The fastest way to get them is to [subscribe to the newsletter](https://newsletter.pipedev.org/forms/nfrm_BzLMaLXv), where subscribers get each link before it goes anywhere else, or to join us on [Discord](https://discord.gg/PU8hygUfbf).
 
 | Event | When | Register |
 | --- | --- | --- |

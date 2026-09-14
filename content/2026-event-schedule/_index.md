@@ -16,7 +16,7 @@ programme:
       format: "Online · Free to attend · Recorded"
       accent: "cyan"
       cta_pending: "Registration opens soon"
-      body: "Agents are turning up in production pipelines faster than anyone has written the rules for them. Three sessions on the work that puts them under pipeline control — from why the prompt is the wrong place for it, to a studio and a games publisher who have built the alternative."
+      body: "Agents are turning up in production pipelines faster than anyone has written the rules for them. We present three sessions on the work that puts them under pipeline control, from why the prompt is the wrong place for it, to a studio and a games publisher who have built the alternative."
       sessions:
         - tag: "Keynote"
           speakers:
@@ -27,6 +27,7 @@ programme:
             - name: "Bert Van Brande"
               url: "https://www.linkedin.com/in/bertvanbrande/"
             - name: "Fermi Perumal"
+              url: "https://www.linkedin.com/in/fermiperumal/"
           org: "Stellar Creative Labs, Vancouver"
           abstract: "Stellar Creative Labs, a Vancouver-based animation studio, walks through the process and the journey of developing governance, controls and artist-centric AI workflows — embedding generative workflows directly into established creative production pipelines. Together, these applications help artists retain control over asset creation, rights management and model behaviour."
         - title: "From Brief to Scene: Agentic AI for Asset Production at Ubisoft"
@@ -59,11 +60,12 @@ programme:
             - name: "Alan McSeveney"
               url: "https://www.linkedin.com/in/alanmcseveney/"
           org: "Previously CTO at Preymaker and Head of Technology at The Mill"
-          abstract: "Alan McSeveney co-founded the wholly cloud-native studio Preymaker and spent over a decade leading technology at The Mill. He shares how unifying studio storage into a single high-performance architecture eliminates data bottlenecks across complex VFX rendering, real-time playback and cloud-bursting pipelines — and how removing those I/O limits lets production teams scale traditional visual effects while preparing the same infrastructure for next-generation generative AI workloads."
+          abstract: "Alan McSeveney, a veteran technologist, co-founded the entirely cloud-native studio Preymaker and spent over a decade leading technology at The Mill. He shares how unifying studio storage into a single high-performance architecture eliminates data bottlenecks across complex VFX rendering, real-time playback and cloud-bursting pipelines. Drawing on his deep studio background, Alan demonstrates how removing those I/O limits enables production teams scale traditional visual effects while seamlessly preparing their infrastructure for next-generation generative AI workloads."
         - title: "Introducing Agentic Workflows into Core Pipeline Automation & Governance"
           speakers:
             - name: "Cole Pearsall"
               url: "https://www.linkedin.com/in/cole-pearsall/"
+          org: "Founder & CEO at Symbiote"
           abstract: "Bringing an agentic QC capability to life means shifting from rigid, hardcoded scripts to a secure multi-agent architecture grounded in studio-specific knowledge. By pairing specialised AI agents with lightweight local proxies, studios can run complex DCC checks and scene evaluations directly on artist workstations without exposing proprietary data. The approach automates tedious layout-to-animation handoffs in seconds, delivering clear, evidence-based pass/fail reports, and scales across other pipeline bottlenecks."
 
     - eyebrow: "October 2026"
@@ -82,7 +84,7 @@ programme:
             - name: "Alex Hughes"
           org: 'Senior Software Engineer at <a href="https://www.miris.com/">Miris</a>, Vancouver, BC'
           abstract: "Alex works on 3D asset streaming at internet scale. His talk covers large scale cloud native radiance field training and what it takes to turn the results into assets that stream — the training infrastructure, the cost model, and the pipeline work in between."
-      footnote: "The DPPA Online Speaker Series runs alongside — and separately from — the two Pipeline Conference half-days above."
+      footnote: "The DPPA Online Speaker Series runs alongside the two Pipeline Conference half-days above, but separately from them."
 
     - eyebrow: "December 2026"
       title: "The Pipeline Awards Show"
@@ -109,7 +111,7 @@ Registration for the two half-days opens shortly, and links will be posted here 
 
 This event will not take place. The Pipeline Conference will not be held in person in Vancouver in 2026; the programme has moved online as described above. Ticket holders have been refunded in full and automatically.
 
-If you would like to help run what comes next, our working group is still recruiting — join the [TPC Conference W.G. channel](https://discord.com/channels/874698660393398313/1414849225354641500) on [Discord](https://discord.gg/w3E9KBEQGP).
+If you would like to help run what comes next, our working group is still recruiting! Join the [TPC Conference W.G. channel](https://discord.com/channels/874698660393398313/1414849225354641500) on [Discord](https://discord.gg/w3E9KBEQGP).
 
 ---
 
@@ -148,9 +150,7 @@ The Future of Experiential Services**
 via Zoom  
 **Video** will be recorded and put onto the [The Pipeline Conference youtube channel](https://www.youtube.com/c/ThePipelineConference)
 
-In the next generation of hospitality experiences, the venue is no longer a backdrop—it is a dynamic participant in the guest journey.
-
-In the next generation of hospitality experiences, the venue is no longer a backdrop—it is a dynamic participant in the guest journey. We are transitioning from the era of static environments into a new age of 'Shared Experiential Reality.' This session explores how the convergence of curved 16K LED architecture and 3D audio beamforming allows leaders to curate communal, high-sensory experiences that were once physically impossible.
+In the next generation of hospitality experiences, the venue is no longer a backdrop but a dynamic participant in the guest journey. We are transitioning from the era of static environments into a new age of 'Shared Experiential Reality.' This session explores how the convergence of curved 16K LED architecture and 3D audio beamforming allows leaders to curate communal, high-sensory experiences that were once physically impossible.
 
 We will examine the 'Responsive Venue'—a space that leverages real-time services to personalize the journey for audiences, delivering story-driven narratives to individual seats and breathing life into architectural surfaces with digital light. By analyzing the technology blueprints of icons like the Sphere, Disney, and COSM, we provide a strategic roadmap for design groups to move beyond traditional entertainment into software-defined environments that command audience obsession and redefine brand loyalty.
 

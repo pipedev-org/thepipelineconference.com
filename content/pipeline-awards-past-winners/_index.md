@@ -28,7 +28,7 @@ This page contains the list of the winners of the previous Pipeline Awards, incl
 
 |  |
 | --- |
-| **OpenTimelineIO** *[Joshua Minor](https://www.linkedin.com/in/joshua-minor-972851/)[, Eric Reinecke](https://www.linkedin.com/in/ericreinecke/), [Stephan Steinbach](https://www.linkedin.com/in/stephan-steinbach-84b0044/), [Nick Porcino](https://www.linkedin.com/in/nick-porcino-8b5438/)*  OpenTimelineIO is an open-source API and interchange format for editorial cut information with a large community of developers and users. It is like a modern EDL which can be used to read, write, and manipulate editorial data, and supports plugins for converting between other formats. Initially created by Pixar, it was chosen as one of the first projects to be hosted by the Academy Software Foundation, and contributors come from all over the industry — including Pixar, Lucasfilm, and Netflix. |
+| **OpenTimelineIO** *[Joshua Minor](https://www.linkedin.com/in/joshua-minor-972851/)[, Eric Reinecke](https://www.linkedin.com/in/ericreinecke/), [Stephan Steinbach](https://www.linkedin.com/in/stephan-steinbach-84b0044/), [Nick Porcino](https://www.linkedin.com/in/nick-porcino-8b5438/)*  OpenTimelineIO is an open-source API and interchange format for editorial cut information with a large community of developers and users. It is like a modern EDL which can be used to read, write, and manipulate editorial data, and supports plugins for converting between other formats. Initially created by Pixar, it was chosen as one of the first projects to be hosted by the Academy Software Foundation, and contributors come from all over the industry, including Pixar, Lucasfilm, and Netflix. |
 
 *Pipeline Hero Awards Winner*
 

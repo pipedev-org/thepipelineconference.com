@@ -110,7 +110,7 @@ This video was not recorded so the discussion could be as free and open as possi
 
 We're hosting a community round-table, and we'd love for you to join the conversation about production pipelines! We'll be sharing what we're seeing and thinking about how things are changing.
 
-With the recent shifts in the industry and the buzz around AI, it feels like a really important time for us to connect and have an open chat. This isn't about formal presentations – it's about getting together as a community and sharing our perspectives on what's happening.
+With the recent shifts in the industry and the buzz around AI, it feels like a really important time for us to connect and have an open dialogue. This is about getting together as a community and sharing our perspectives on what's happening.
 
 Here's what we're hoping for:
 

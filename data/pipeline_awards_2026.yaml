@@ -38,8 +38,8 @@ nominees:
         url: https://www.unrealengine.com/spotlights/reimagining-previs-and-layout-for-kpop-demon-hunters-with-unreal-engine
 
   - id: nominee-3
-    title: HDR Video Generation via Latent Alignment with Logarithmic Encoding
-    card_title: HDR Video Generation
+    title: "LumiVid: HDR Video Generation"
+    card_title: "LumiVid: HDR Video Generation"
     contributors: Naomi Ken Korem and Mohamed Oumoumad, with Lightricks
     image: /images/awards/lumivid.jpg
     image_alt: LumiVid result of a garage-door plate pulled down in exposure, with cloud detail and headlight structure recovered.
@@ -56,7 +56,7 @@ nominees:
       - label: Project page
         url: https://hdr-lumivid.github.io/
       - label: Video model
-        url: https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-HDR
+        url: https://huggingface.co/Lightricks/LTX-2.5-22b-IC-LoRA-SDR-To-HDR
       - label: Image model
         url: https://huggingface.co/oumoumad/LumiPic
       - label: GitHub

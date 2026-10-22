@@ -38,7 +38,8 @@ nominees:
         url: https://www.unrealengine.com/spotlights/reimagining-previs-and-layout-for-kpop-demon-hunters-with-unreal-engine
 
   - id: nominee-3
-    title: LumiVid
+    title: HDR Video Generation via Latent Alignment with Logarithmic Encoding
+    card_title: HDR Video Generation
     contributors: Naomi Ken Korem and Mohamed Oumoumad, with Lightricks
     image: /images/awards/lumivid.jpg
     image_alt: LumiVid result of a garage-door plate pulled down in exposure, with cloud detail and headlight structure recovered.
@@ -65,7 +66,8 @@ nominees:
     title: Nitro Real-time Pipeline
     contributors: Joe Longson (architecture lead), Jay Steele, Mark Mclaughlin, Andy Lin, Gene Lee, Christian Eisenacher, Serge Sretschinsky, Hidehiro Hirase, Noel Villegas, and Lawrence Chai, Walt Disney Animation Studios
     image: /images/awards/nitro.jpg
-    image_alt: A production character rig in a real-time viewport, from Disney Animation’s Nitro playback work.
+    image_alt: Nitro title card with the Walt Disney Animation Studios wordmark.
+    video_id: yuXHlcZA-VA
     writeup: |
       At Walt Disney Animation Studios, storytelling depends on empowering artists to make creative decisions quickly and confidently.
 

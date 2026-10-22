@@ -59,13 +59,14 @@
         <div class="awards-grid" data-awards-grid>
             {{ $rules := slice "cyan" "amber" "purple" "green" "orange" }}
             {{ range $index, $nominee := $awards.nominees }}
-            <button type="button" class="awards-card" data-awards-open="{{ $nominee.id }}" aria-label="Learn more about {{ $nominee.title }}">
+            {{ $cardTitle := or $nominee.card_title $nominee.title }}
+            <button type="button" class="awards-card" data-awards-open="{{ $nominee.id }}" aria-label="Learn more about {{ $cardTitle }}">
                 <div class="awards-card-rule awards-card-rule--{{ index $rules (mod $index 5) }}"></div>
                 <div class="awards-card-media">
                     <img src="{{ $nominee.image | relURL }}" alt="{{ $nominee.image_alt }}">
                     <span class="awards-card-index">{{ printf "%02d" (add $index 1) }}</span>
                 </div>
-                <p class="awards-card-title">{{ $nominee.title }}</p>
+                <p class="awards-card-title">{{ $cardTitle }}</p>
                 <span class="awards-learn">Learn more</span>
             </button>
             {{ end }}

@@ -84,9 +84,12 @@
         if (!stage) {
             return;
         }
-        var header = document.querySelector(".site-header.is-scrolled");
-        var offset = header ? header.getBoundingClientRect().height : 0;
-        var top = stage.getBoundingClientRect().top + window.scrollY - offset;
+        var header = document.querySelector(".site-header");
+        var headerH = header ? header.getBoundingClientRect().height : 0;
+        var top = stage.getBoundingClientRect().top + window.scrollY;
+        if (top > 40) {
+            top -= headerH;
+        }
         window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
     }
 

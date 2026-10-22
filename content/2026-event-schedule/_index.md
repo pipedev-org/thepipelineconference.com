@@ -19,7 +19,7 @@ programme:
       cta_style: "btn-accent"
       cta_text: "Register free on Luma"
       cta_url: "https://luma.com/9kqv63oh"
-      body: "Agents are turning up in production pipelines faster than anyone has written the rules for them. We present three sessions on the work that puts them under pipeline control, from why the prompt is the wrong place for it, to a studio and a production-technology team who have built the alternative."
+      body: "Agents are turning up in production pipelines faster than anyone has written the rules for them. We present three sessions on the work that puts them under pipeline control, from why the prompt is the wrong place for it, to a studio and a games publisher who have built the alternative."
       sessions:
         - tag: "Keynote"
           speakers:
@@ -29,10 +29,13 @@ programme:
             - id: "bert-van-brande"
             - id: "fermi-perumal"
           abstract: "Stellar Creative Lab, a Vancouver-based animation studio, walks through the process and the journey of developing governance, controls and artist-centric AI workflows — embedding generative workflows directly into established creative production pipelines. Together, these applications help artists retain control over asset creation, rights management and model behaviour."
-        - title: "From USD to Agentic AI: Building the Foundations for Intelligent Production"
+        - title: "From Brief to Scene: Agentic AI for Asset Production at Ubisoft"
           speakers:
             - id: "cyrus-rahgoshay"
           abstract: "While generative AI often focuses on generating raw media, the biggest production bottlenecks lie in the operational overhead surrounding game and film pipelines. This presentation introduces an agentic AI framework which embeds autonomous agents directly into standard 3D software to translate creative briefs into production-ready scenes. By automating scene assembly, pipeline validation and asset handoffs, the architecture shifts AI from an unpredictable generator into an integrated engine for studio-scale efficiency."
+          links:
+            - text: "Read the paper"
+              url: "https://dl.acm.org/doi/10.1145/3819990.3820033"
 
     - eyebrow: "Tuesday 20 October · Afternoon"
       title: "Speaker Series Kickoff"
@@ -67,6 +70,10 @@ programme:
       cta_url: "https://luma.com/ofvxloqb"
       body: "The unglamorous half of the job, taken seriously: the format, the storage and the automation that everything else in a studio sits on top of. Classic Pipeline Conference content on the practical problems that decide whether a show ships."
       sessions:
+        - title: "Introducing Agentic Workflows into Core Pipeline Automation & Governance"
+          speakers:
+            - id: "cole-pearsall"
+          abstract: "Cole Pearsall is a Forbes 30 Under 30 serial founder who co-founded and scaled Acid League and Proxies before turning to film and game production. At Symbiote he is building an intelligence layer for animation, VFX and games pipelines: AI orchestration tools, developed with studio partners, that take the friction out of complex production workflows so artists and pipeline teams can work more intuitively. Bringing an agentic QC capability to life means shifting from rigid, hardcoded scripts to a secure multi-agent architecture grounded in studio-specific knowledge. By pairing specialised AI agents with lightweight local proxies, studios can run complex DCC checks and scene evaluations directly on artist workstations without exposing proprietary data. The approach automates tedious layout-to-animation handoffs in seconds, delivering clear, evidence-based pass/fail reports, and scales across other pipeline bottlenecks."
         - title: "Roadmap & Strategy to Accelerate OpenUSD Adoption within Pipelines"
           speakers:
             - id: "dan-englesson"
@@ -74,10 +81,6 @@ programme:
         - speakers:
             - id: "alan-mcseveney"
           abstract: "Alan McSeveney, a veteran technologist, co-founded the entirely cloud-native studio Preymaker and spent over a decade leading technology at The Mill. He shares how unifying studio storage into a single high-performance architecture eliminates data bottlenecks across complex VFX rendering, real-time playback and cloud-bursting pipelines. Drawing on his deep studio background, Alan demonstrates how removing those I/O limits enables production teams to scale traditional visual effects while seamlessly preparing their infrastructure for next-generation generative AI workloads."
-        - title: "Introducing Agentic Workflows into Core Pipeline Automation & Governance"
-          speakers:
-            - id: "cole-pearsall"
-          abstract: "Cole Pearsall is a Forbes 30 Under 30 serial founder who co-founded and scaled Acid League and Proxies before turning to film and game production. At Symbiote he is building an intelligence layer for animation, VFX and games pipelines: AI orchestration tools, developed with studio partners, that take the friction out of complex production workflows so artists and pipeline teams can work more intuitively. Bringing an agentic QC capability to life means shifting from rigid, hardcoded scripts to a secure multi-agent architecture grounded in studio-specific knowledge. By pairing specialised AI agents with lightweight local proxies, studios can run complex DCC checks and scene evaluations directly on artist workstations without exposing proprietary data. The approach automates tedious layout-to-animation handoffs in seconds, delivering clear, evidence-based pass/fail reports, and scales across other pipeline bottlenecks."
 
     - eyebrow: "December 2026"
       title: "The Pipeline Awards Show"

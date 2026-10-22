@@ -17,12 +17,12 @@ event_address: "Join live from anywhere"
 event_date: "Tuesday 20 & Tuesday 27 October 2026"
 event_time: "Mornings 09:00 – 12:00 Pacific · Speaker Series kickoff 14:00 Pacific on the 20th"
 
-banner_blurb: "Two free days of talks from people who have built production pipelines at Digital Domain, Stability AI, Pixar, Autodesk, Sony Pictures Imageworks and The Mill, and on the afternoon of the 20th, the DPPA Online Speaker Series kicks off with Alex Hughes of Miris. Every talk ends in live Q&A, and the tenth Pipeline Awards close out the year in December."
+banner_blurb: "Two free days of talks from people who have built production pipelines at Digital Domain, Stability AI, Pixar, Ubisoft, Sony Pictures Imageworks and The Mill, and on the afternoon of the 20th, the DPPA Online Speaker Series kicks off with Alex Hughes of Miris. Every talk ends in live Q&A, and the tenth Pipeline Awards close out the year in December."
 
 # The hero shows these bullets in place of the blurb (the blurb stays as the meta description).
 # Markdown is allowed: lead with a bold phrase so the list scans.
 banner_points:
-  - "**Two free days of talks** from people who have built production pipelines at Digital Domain, Stability AI, Pixar, Autodesk, Sony Pictures Imageworks and The Mill"
+  - "**Two free days of talks** from people who have built production pipelines at Digital Domain, Stability AI, Pixar, Ubisoft, Sony Pictures Imageworks and The Mill"
   - "**DPPA Online Speaker Series kickoff** with Alex Hughes of Miris, on the afternoon of the 20th"
   - "**Live Q&A** at the end of every talk"
   - "**The tenth Pipeline Awards** close out the year in December"
@@ -137,9 +137,9 @@ online_events:
       date: "Tuesday 27 October 2026"
       format: "09:00 – 12:00 Pacific · Online · Recorded"
       speaker_ids:
+        - "cole-pearsall"
         - "dan-englesson"
         - "alan-mcseveney"
-        - "cole-pearsall"
       cost: "Free"
       accent: "amber"
       body: "The three layers everything else in a studio sits on: the format, the storage, the automation. Getting to OpenUSD without stalling halfway; taking I/O out of the critical path for rendering, playback and cloud bursting; and handing tedious QC checks to agents on the artist's own workstation, with no proprietary data leaving the building."
@@ -173,7 +173,7 @@ the_case:
     - title: "Ideas you can use on Monday"
       body: "How to keep generative models under pipeline control, a staged roadmap to OpenUSD, radiance fields trained at cloud scale and streamed to any device, taking storage I/O off the critical path, and agentic QC that never sends studio data off the workstation."
     - title: "Direct access to thought leaders in the industry"
-      body: "Every talk ends in live Q&A with speakers who built pipelines at Digital Domain, Stability AI, Pixar, Autodesk, Sony Pictures Imageworks, The Mill and Miris."
+      body: "Every talk ends in live Q&A with speakers who built pipelines at Digital Domain, Stability AI, Pixar, Ubisoft, Sony Pictures Imageworks, The Mill and Miris."
     - title: "It reaches the whole team"
       body: "Talks are recorded for the TPC YouTube channel, and the discussion carries on in our <a href=\"https://discord.gg/PU8hygUfbf\">Discord</a>, so what you learn travels back to your studio."
   buttons:
@@ -198,7 +198,7 @@ why_attend:
       link_text: "Join the Discord"
       link_url: "https://discord.gg/PU8hygUfbf"
     - title: "Learn about the latest cutting edge techniques"
-      body: "This year: a former CTO of Digital Domain and Stability AI on why control cannot live in the prompt; Autodesk on going from USD to agentic production; one of the team who moved Pixar onto OpenUSD; storage lessons from The Mill and Preymaker; and, kicking off our Speaker Series, Miris on radiance fields that stream to any device. Active projects with real budgets and real deadlines, including the parts that broke."
+      body: "This year: a former CTO of Digital Domain and Stability AI on why control cannot live in the prompt; Ubisoft's agentic asset production; one of the team who moved Pixar onto OpenUSD; storage lessons from The Mill and Preymaker; and, kicking off our Speaker Series, Miris on radiance fields that stream to any device. Active projects with real budgets and real deadlines, including the parts that broke."
       image: "/uploads/2026/07/siggraph/pipeline-bof-2026-talk.webp"
       alt: "A packed room at one of the pipeline Birds of a Feather sessions the DPPA coordinated at SIGGRAPH 2026."
       fit: "cover"

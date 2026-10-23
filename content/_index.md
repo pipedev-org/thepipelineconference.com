@@ -101,6 +101,7 @@ online_events:
       title: "The Agentic Pipeline"
       subtitle: "AI and agentic workflows in digital media pipelines"
       date: "Tuesday 20 October 2026"
+      end_date: 2026-10-21
       format: "09:00 – 12:00 Pacific · Online · Recorded"
       speaker_ids:
         - id: "hanno-basse"
@@ -118,6 +119,7 @@ online_events:
       title: "Speaker Series Kickoff"
       subtitle: "Large Scale Cloud Native Radiance Field Training for Streamable Assets"
       date: "Tuesday 20 October 2026"
+      end_date: 2026-10-21
       format: "14:00 – 15:00 Pacific · Online · Recorded"
       sponsor:
         name: "Miris"
@@ -135,6 +137,7 @@ online_events:
       title: "Core Pipeline Services"
       subtitle: "Pipeline engineering and operations at production scale"
       date: "Tuesday 27 October 2026"
+      end_date: 2026-10-28
       format: "09:00 – 12:00 Pacific · Online · Recorded"
       speaker_ids:
         - "cole-pearsall"

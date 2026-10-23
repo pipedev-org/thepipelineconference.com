@@ -24,8 +24,14 @@
           {{ end }}
           {{ with $day.format }}<p class="prog-day-format">{{ . }}</p>{{ end }}
           <div class="prog-day-cta">
+            {{ $past := false }}
+            {{ with $day.end_date }}{{ if lt (time.AsTime .) now }}{{ $past = true }}{{ end }}{{ end }}
             {{ if $day.cta_url }}
+            {{ if $past }}
+            <span class="btn btn-past" aria-disabled="true">{{ default "Event ended" $day.cta_past }}</span>
+            {{ else }}
             <a class="btn {{ with $day.cta_style }}{{ . }}{{ else }}{{ if eq $accent "amber" }}btn-accent{{ else }}btn-transparent{{ end }}{{ end }}" href="{{ $day.cta_url }}"{{ if hasPrefix $day.cta_url "http" }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ default "Register free" $day.cta_text }}</a>
+            {{ end }}
             {{ else }}
             <span class="tba">{{ default "Registration opens soon" $day.cta_pending }}</span>
             {{ end }}

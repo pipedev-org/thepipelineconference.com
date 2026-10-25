@@ -4,6 +4,8 @@
         return;
     }
 
+    startCountdown(root);
+
     var stage = root.querySelector("[data-awards-stage]");
     var empty = root.querySelector("[data-awards-empty]");
     var panels = root.querySelectorAll("[data-awards-panel]");
@@ -124,4 +126,69 @@
             show(open.getAttribute("data-awards-open"), "top");
         }
     });
+
+    function startCountdown(root) {
+        var countdown = root.querySelector("[data-awards-countdown]");
+        if (!countdown) {
+            return;
+        }
+
+        var deadline = Date.parse(countdown.getAttribute("data-awards-countdown"));
+        var units = countdown.querySelector("[data-awards-countdown-units]");
+        var closed = countdown.querySelector("[data-awards-countdown-closed]");
+        var status = countdown.querySelector("[data-awards-countdown-status]");
+        var fields = {
+            days: countdown.querySelector("[data-awards-countdown-days]"),
+            hours: countdown.querySelector("[data-awards-countdown-hours]"),
+            minutes: countdown.querySelector("[data-awards-countdown-minutes]"),
+            seconds: countdown.querySelector("[data-awards-countdown-seconds]")
+        };
+        if (!deadline || !units || !fields.days) {
+            return;
+        }
+
+        var announcedMinute = "";
+        var timer = window.setInterval(tick, 1000);
+        tick();
+
+        function tick() {
+            var remaining = deadline - Date.now();
+            if (remaining <= 0) {
+                units.hidden = true;
+                if (closed) {
+                    closed.hidden = false;
+                }
+                if (status) {
+                    status.textContent = "Voting has closed";
+                }
+                window.clearInterval(timer);
+                return;
+            }
+
+            var totalSeconds = Math.floor(remaining / 1000);
+            var days = Math.floor(totalSeconds / 86400);
+            var hours = Math.floor((totalSeconds % 86400) / 3600);
+            var minutes = Math.floor((totalSeconds % 3600) / 60);
+            var seconds = totalSeconds % 60;
+
+            fields.days.textContent = String(days);
+            fields.hours.textContent = pad(hours);
+            fields.minutes.textContent = pad(minutes);
+            fields.seconds.textContent = pad(seconds);
+
+            var minuteKey = days + ":" + hours + ":" + minutes;
+            if (status && minuteKey !== announcedMinute) {
+                announcedMinute = minuteKey;
+                status.textContent = plural(days, "day") + ", " + plural(hours, "hour") + ", " + plural(minutes, "minute") + " remaining";
+            }
+        }
+
+        function pad(value) {
+            return value < 10 ? "0" + value : String(value);
+        }
+
+        function plural(value, word) {
+            return value + " " + word + (value === 1 ? "" : "s");
+        }
+    }
 })();

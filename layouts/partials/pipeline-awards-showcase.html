@@ -2,6 +2,34 @@
 {{ if and $awards $awards.nominees }}
 <section class="awards-showcase" data-awards aria-labelledby="awards-showcase-title">
     <div class="container">
+        {{ with $awards.vote_closes }}
+        <div class="awards-deadline">
+            <p class="awards-deadline-label">{{ $awards.vote_closes_label }}</p>
+            <div class="awards-countdown" data-awards-countdown="{{ . }}" role="timer">
+                <p class="awards-countdown-closed" data-awards-countdown-closed hidden>Voting has closed</p>
+                <div class="awards-countdown-units" data-awards-countdown-units>
+                    <div class="awards-countdown-unit">
+                        <span class="awards-countdown-value" data-awards-countdown-days>--</span>
+                        <span class="awards-countdown-name">Days</span>
+                    </div>
+                    <div class="awards-countdown-unit">
+                        <span class="awards-countdown-value" data-awards-countdown-hours>--</span>
+                        <span class="awards-countdown-name">Hours</span>
+                    </div>
+                    <div class="awards-countdown-unit">
+                        <span class="awards-countdown-value" data-awards-countdown-minutes>--</span>
+                        <span class="awards-countdown-name">Minutes</span>
+                    </div>
+                    <div class="awards-countdown-unit">
+                        <span class="awards-countdown-value" data-awards-countdown-seconds>--</span>
+                        <span class="awards-countdown-name">Seconds</span>
+                    </div>
+                </div>
+                <p class="awards-countdown-status" data-awards-countdown-status aria-live="polite"></p>
+            </div>
+        </div>
+        {{ end }}
+
         <div class="awards-stage" data-awards-stage>
             <div class="awards-stage-head">
                 <h2 id="awards-showcase-title">Voting is now open</h2>

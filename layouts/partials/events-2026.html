@@ -31,8 +31,14 @@
                     {{ end }}
                     <p class="event-card-body">{{ $event.body | safeHTML }}</p>
                     <div class="event-card-foot">
+                        {{ $past := false }}
+                        {{ with $event.end_date }}{{ if lt (time.AsTime .) now }}{{ $past = true }}{{ end }}{{ end }}
                         {{ if $event.cta_url }}
+                        {{ if $past }}
+                        <span class="btn btn-past" aria-disabled="true">{{ default "Event ended" $event.cta_past }}</span>
+                        {{ else }}
                         <a class="btn {{ with $event.cta_style }}{{ . }}{{ else }}{{ if eq (default "cyan" $event.accent) "amber" }}btn-accent{{ else }}btn-transparent{{ end }}{{ end }}" href="{{ $event.cta_url }}"{{ if hasPrefix $event.cta_url "http" }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ default "Register free" $event.cta_text }}</a>
+                        {{ end }}
                         {{ else }}
                         <span class="tba">{{ default "Registration opens soon" $event.cta_pending }}</span>
                         {{ end }}

@@ -13,6 +13,7 @@ programme:
       title: "The Agentic Pipeline"
       subtitle: "AI and agentic workflows in digital media pipelines"
       date: "Tuesday 20 October 2026"
+      end_date: 2026-10-21
       time: "09:00 – 12:00 Pacific Time"
       format: "Online · Free to attend · Recorded"
       accent: "cyan"
@@ -45,6 +46,7 @@ programme:
         url: "https://www.miris.com/"
         logo: "/img/miris-logo.svg"
       date: "Tuesday 20 October 2026"
+      end_date: 2026-10-21
       time: "14:00 – 15:00 Pacific Time"
       format: "Online · Free to attend · Recorded"
       accent: "green"
@@ -63,6 +65,7 @@ programme:
       title: "Core Pipeline Services"
       subtitle: "Pipeline engineering and operations at production scale"
       date: "Tuesday 27 October 2026"
+      end_date: 2026-10-28
       time: "09:00 – 12:00 Pacific Time"
       format: "Online · Free to attend · Recorded"
       accent: "amber"

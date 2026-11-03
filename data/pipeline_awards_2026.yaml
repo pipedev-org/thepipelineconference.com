@@ -2,6 +2,8 @@
 # Omit video_id to show the "Video coming soon" placeholder.
 category: Pipeline Project of the Year
 vote_url: "https://docs.google.com/forms/d/e/1FAIpQLSeC-4NVa2Cj4P91XFWaB-4qGXzRqxisEsLIsA9BsNzzxX5UQg/viewform?usp=dialog"
+vote_closes: "2026-11-27T12:00:00-08:00"
+vote_closes_label: "Voting closes Nov 27th 2026 @ 12:00pm PST"
 nominees:
   - id: nominee-1
     title: Hybrid runtime environments

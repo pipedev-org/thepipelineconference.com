@@ -13,30 +13,31 @@ banner_tagline: "To promote, elevate and evolve VFX/CG pipelines"
 event_location: "TPC 2026"
 # Big amber pills next to the edition label: the first thing people should take away.
 event_badges: ["Online", "Free"]
-event_address: "Join live from anywhere"
+event_address: "Watch the recordings from anywhere"
 event_date: "Tuesday 20 & Tuesday 27 October 2026"
 event_time: "Mornings 09:00 – 12:00 Pacific · Speaker Series kickoff 14:00 Pacific on the 20th"
 
-banner_blurb: "Two free days of talks from people who have built production pipelines at Digital Domain, Stability AI, Pixar, Ubisoft, Sony Pictures Imageworks and The Mill, and on the afternoon of the 20th, the DPPA Online Speaker Series kicks off with Alex Hughes of Miris. Every talk ends in live Q&A, and the tenth Pipeline Awards close out the year in December."
+banner_blurb: "Two days of talks from people who have built production pipelines at Digital Domain, Stability AI, Pixar, Ubisoft, Sony Pictures Imageworks and The Mill, plus the kickoff of the DPPA Online Speaker Series with Alex Hughes of Miris. All three sessions are now free to watch on YouTube, and the tenth Pipeline Awards close out the year in December."
 
 # The hero shows these bullets in place of the blurb (the blurb stays as the meta description).
 # Markdown is allowed: lead with a bold phrase so the list scans.
 banner_points:
-  - "**Two free days of talks** from people who have built production pipelines at Digital Domain, Stability AI, Pixar, Ubisoft, Sony Pictures Imageworks and The Mill"
-  - "**DPPA Online Speaker Series kickoff** with Alex Hughes of Miris, on the afternoon of the 20th"
-  - "**Live Q&A** at the end of every talk"
+  - "**Two days of talks, free to watch** from people who have built production pipelines at Digital Domain, Stability AI, Pixar, Ubisoft, Sony Pictures Imageworks and The Mill"
+  - "**DPPA Online Speaker Series kickoff** with Alex Hughes of Miris, recorded on the afternoon of the 20th"
+  - "**Every talk ended in live Q&A** with the speakers"
   - "**The tenth Pipeline Awards** close out the year in December"
 
+# The October sessions are over, so the hero buttons link to their YouTube recordings.
 banner_buttons:
-  - text: "Register · 20 Oct morning"
-    url: "https://luma.com/9kqv63oh"
-    style: "btn-accent"
-  - text: "Register · 20 Oct afternoon"
-    url: "https://www.eventbrite.com/e/large-scale-cloud-native-radiance-field-training-for-streamable-assets-tickets-1994577276326?aff=TPCWebsite"
-    style: "btn-accent"
-  - text: "Register · 27 Oct morning"
-    url: "https://luma.com/ofvxloqb"
-    style: "btn-accent"
+  - text: "Watch · The Agentic Pipeline"
+    url: "https://youtu.be/bWvxBu_vVes"
+    style: "btn-accent btn-watch"
+  - text: "Watch · Speaker Series kickoff"
+    url: "https://youtu.be/FmnC742Ogvw"
+    style: "btn-accent btn-watch"
+  - text: "Watch · Core Pipeline Services"
+    url: "https://youtu.be/u6NRNxPXdTo"
+    style: "btn-accent btn-watch"
 
 # The line-up as a row of faces under the hero buttons. Ids are in data/tpc2026_speakers.yaml.
 hero_speakers:
@@ -54,7 +55,7 @@ status_notice:
 spotlights:
   eyebrow: "Tuesday 20 October"
   heading: "Headlining the 20th"
-  intro: "A keynote to open the morning, and the kickoff of the DPPA Online Speaker Series in the afternoon. Stay for both: they are one day of TPC 2026."
+  intro: "A keynote opened the morning, and the DPPA Online Speaker Series kicked off in the afternoon. Both are now on YouTube: watch them together as one day of TPC 2026."
   items:
   - id: "hanno-basse"
     eyebrow: "Keynote · The Agentic Pipeline · 20 October, morning"
@@ -63,11 +64,11 @@ spotlights:
       - "Fellow of SMPTE and member of the Academy of Motion Picture Arts and Sciences"
       - "30 patents"
     heading: "Move control out of the prompt, and back into the pipeline."
-    body: "Hanno deconstructs how generative models actually work, exposes their built-in limitations, and shows why they require us to take control back into our own pipelines. For pipeline engineers, TDs and heads of technology grappling with the realities of integrating AI into production, this is the session to be in."
+    body: "Hanno deconstructs how generative models actually work, exposes their built-in limitations, and shows why they require us to take control back into our own pipelines. For pipeline engineers, TDs and heads of technology grappling with the realities of integrating AI into production, this is the session to watch."
     buttons:
-      - text: "Register for the morning"
-        url: "https://luma.com/9kqv63oh"
-        style: "btn-accent"
+      - text: "Watch the recording"
+        url: "https://youtu.be/bWvxBu_vVes"
+        style: "btn-accent btn-watch"
       - text: "See the full line-up"
         url: "#events"
         style: "btn-transparent"
@@ -78,16 +79,16 @@ spotlights:
       - "Former Head of Pipeline at Vitality VFX; Digital Domain and Zoic Studios before that"
       - "Creator of SEPT, an open-source file-naming toolkit for VFX"
     heading: "Large Scale Cloud Native Radiance Field Training for Streamable Assets"
-    body: "Stay on after the morning sessions. Alex shows how Miris trains radiance fields at cloud scale and turns them into 3D assets that stream to any device: the training infrastructure, the cost model, and the pipeline work in between. The first talk of the DPPA Online Speaker Series, and part of the TPC 2026 programme on the 20th."
+    body: "Alex shows how Miris trains radiance fields at cloud scale and turns them into 3D assets that stream to any device: the training infrastructure, the cost model, and the pipeline work in between. The first talk of the DPPA Online Speaker Series, and part of the TPC 2026 programme on the 20th."
     sponsor:
       name: "Miris"
       url: "https://www.miris.com/"
       logo: "/img/miris-logo.svg"
       tagline: "Stream 3D content without limits."
     buttons:
-      - text: "Register for the afternoon"
-        url: "https://www.eventbrite.com/e/large-scale-cloud-native-radiance-field-training-for-streamable-assets-tickets-1994577276326?aff=TPCWebsite"
-        style: "btn-accent"
+      - text: "Watch the recording"
+        url: "https://youtu.be/FmnC742Ogvw"
+        style: "btn-accent btn-watch"
       - text: "See the full line-up"
         url: "#events"
         style: "btn-transparent"
@@ -95,7 +96,7 @@ spotlights:
 online_events:
   eyebrow: "TPC 2026 · Online · Free"
   heading: "Two days of talks and an awards show"
-  intro: "We moved TPC 2026 online from Vancouver, and the room just got a whole lot bigger. Tuesday 20 October runs morning and afternoon: The Agentic Pipeline, then the kickoff of the DPPA Online Speaker Series with Alex Hughes of Miris. Core Pipeline Services follows on the 27th, and the tenth Pipeline Awards close out the year. Every session is free: <a href=\"/2026-event-schedule/\">see the full run of show</a>, or <a href=\"https://newsletter.pipedev.org/forms/nfrm_BzLMaLXv\">subscribe to our newsletter</a> to hear about the Awards Show first."
+  intro: "We moved TPC 2026 online from Vancouver, and the room got a whole lot bigger. Tuesday 20 October ran morning and afternoon: The Agentic Pipeline, then the kickoff of the DPPA Online Speaker Series with Alex Hughes of Miris. Core Pipeline Services followed on the 27th. All three sessions are now free to watch on YouTube, and the tenth Pipeline Awards close out the year: <a href=\"/2026-event-schedule/\">see the full run of show</a>, or <a href=\"https://newsletter.pipedev.org/forms/nfrm_BzLMaLXv\">subscribe to our newsletter</a> to hear about the Awards Show first."
   items:
     - eyebrow: "Tuesday 20 October · Morning"
       title: "The Agentic Pipeline"
@@ -113,8 +114,7 @@ online_events:
       accent: "cyan"
       cta_style: "btn-accent"
       body: "Three talks converging on one argument: generative AI only behaves once the pipeline is holding the reins. Why control cannot live in the prompt; what governance and rights management look like inside a working studio pipeline; and what changes when agents run inside standard 3D software rather than alongside it."
-      cta_text: "Register free on Luma"
-      cta_url: "https://luma.com/9kqv63oh"
+      video_url: "https://youtu.be/bWvxBu_vVes"
     - eyebrow: "Tuesday 20 October · Afternoon"
       title: "Speaker Series Kickoff"
       subtitle: "Large Scale Cloud Native Radiance Field Training for Streamable Assets"
@@ -129,9 +129,8 @@ online_events:
         - "alex-hughes"
       cost: "Free"
       accent: "green"
-      body: "Stay on after the morning programme: Alex Hughes of Miris on training radiance fields at cloud scale and turning them into 3D assets that stream to any device. The training infrastructure, the cost model, and the pipeline work in between. It is the first talk of the DPPA Online Speaker Series, and part of TPC 2026 on the 20th."
-      cta_text: "Register free on Eventbrite"
-      cta_url: "https://www.eventbrite.com/e/large-scale-cloud-native-radiance-field-training-for-streamable-assets-tickets-1994577276326?aff=TPCWebsite"
+      body: "Alex Hughes of Miris on training radiance fields at cloud scale and turning them into 3D assets that stream to any device. The training infrastructure, the cost model, and the pipeline work in between. It was the first talk of the DPPA Online Speaker Series, and part of TPC 2026 on the 20th."
+      video_url: "https://youtu.be/FmnC742Ogvw"
       cta_style: "btn-accent"
     - eyebrow: "Tuesday 27 October · Morning"
       title: "Core Pipeline Services"
@@ -146,8 +145,7 @@ online_events:
       cost: "Free"
       accent: "amber"
       body: "The three layers everything else in a studio sits on: the format, the storage, the automation. Getting to OpenUSD without stalling halfway; taking I/O out of the critical path for rendering, playback and cloud bursting; and handing tedious QC checks to agents on the artist's own workstation, with no proprietary data leaving the building."
-      cta_text: "Register free on Luma"
-      cta_url: "https://luma.com/ofvxloqb"
+      video_url: "https://youtu.be/u6NRNxPXdTo"
     - eyebrow: "December 2026"
       title: "The Pipeline Awards Show"
       subtitle: "Closing out the year on the TPC YouTube channel"
@@ -164,7 +162,7 @@ online_events:
 # Who TPC is for, and the case for two mornings off (Michael Herrera's feedback, Oct 2026).
 the_case:
   eyebrow: "Who it's for"
-  heading: "Two deeply rewarding mornings of Pipeline content"
+  heading: "Two deeply rewarding mornings of Pipeline content, now on YouTube"
   intro: "TPC is for the people who build and run production pipelines: pipeline engineers and developers, technical directors and technical artists, and the R&D, infrastructure and production technology teams behind animation, VFX, games and real-time media. Students and people new to the industry are just as welcome. This is where you meet the people doing the work."
   image: "/uploads/2026/07/siggraph/pipeline-bof-2026-room.webp"
   image_alt: "A full room of pipeline professionals at one of the DPPA's Birds of a Feather sessions at SIGGRAPH 2026."
@@ -172,23 +170,23 @@ the_case:
   panel_heading: "Making the case to your manager"
   points:
     - title: "No travel, no ticket"
-      body: "Two three-hour mornings and an afternoon talk, online and free. The only cost is your time."
+      body: "Two three-hour mornings and an afternoon talk, free to watch whenever suits you. The only cost is your time."
     - title: "Ideas you can use on Monday"
       body: "How to keep generative models under pipeline control, a staged roadmap to OpenUSD, radiance fields trained at cloud scale and streamed to any device, taking storage I/O off the critical path, and agentic QC that never sends studio data off the workstation."
     - title: "Direct access to thought leaders in the industry"
-      body: "Every talk ends in live Q&A with speakers who built pipelines at Digital Domain, Stability AI, Pixar, Ubisoft, Sony Pictures Imageworks, The Mill and Miris."
+      body: "Every talk ended in live Q&A with speakers who built pipelines at Digital Domain, Stability AI, Pixar, Ubisoft, Sony Pictures Imageworks, The Mill and Miris."
     - title: "It reaches the whole team"
-      body: "Talks are recorded for the TPC YouTube channel, and the discussion carries on in our <a href=\"https://discord.gg/PU8hygUfbf\">Discord</a>, so what you learn travels back to your studio."
+      body: "The recordings are on the TPC YouTube channel, and the discussion carries on in our <a href=\"https://discord.gg/PU8hygUfbf\">Discord</a>, so what you learn travels back to your studio."
   buttons:
-    - text: "Register · 20 Oct morning"
-      url: "https://luma.com/9kqv63oh"
-      style: "btn-accent"
-    - text: "Register · 20 Oct afternoon"
-      url: "https://www.eventbrite.com/e/large-scale-cloud-native-radiance-field-training-for-streamable-assets-tickets-1994577276326?aff=TPCWebsite"
-      style: "btn-accent"
-    - text: "Register · 27 Oct morning"
-      url: "https://luma.com/ofvxloqb"
-      style: "btn-accent"
+    - text: "Watch · The Agentic Pipeline"
+      url: "https://youtu.be/bWvxBu_vVes"
+      style: "btn-accent btn-watch"
+    - text: "Watch · Speaker Series kickoff"
+      url: "https://youtu.be/FmnC742Ogvw"
+      style: "btn-accent btn-watch"
+    - text: "Watch · Core Pipeline Services"
+      url: "https://youtu.be/u6NRNxPXdTo"
+      style: "btn-accent btn-watch"
 
 why_attend:
   heading: "Why come along"

@@ -26,7 +26,10 @@
           <div class="prog-day-cta">
             {{ $past := false }}
             {{ with $day.end_date }}{{ if lt (time.AsTime .) now }}{{ $past = true }}{{ end }}{{ end }}
-            {{ if $day.cta_url }}
+            {{/* A recording link wins over registration, whatever the build date. */}}
+            {{ if $day.video_url }}
+            <a class="btn btn-watch {{ with $day.cta_style }}{{ . }}{{ else }}btn-accent{{ end }}" href="{{ $day.video_url }}" target="_blank" rel="noopener noreferrer">{{ default "Watch the recording" $day.video_text }}</a>
+            {{ else if $day.cta_url }}
             {{ if $past }}
             <span class="btn btn-past" aria-disabled="true">{{ default "Event ended" $day.cta_past }}</span>
             {{ else }}

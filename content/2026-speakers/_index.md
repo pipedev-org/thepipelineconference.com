@@ -6,12 +6,12 @@ author: "Fran"
 
 ## TPC 2026 online programme
 
-TPC 2026 runs online across two free days: **The Agentic Pipeline** on the morning of Tuesday 20 October, the **DPPA Online Speaker Series kickoff** with Alex Hughes of Miris that afternoon at 2:00pm, and **Core Pipeline Services** on the morning of Tuesday 27 October (mornings 9:00am – 12:00pm Pacific Time). Registration is open for all three: [The Agentic Pipeline](https://luma.com/9kqv63oh) and [Core Pipeline Services](https://luma.com/ofvxloqb) on Luma, and the [Speaker Series kickoff](https://www.eventbrite.com/e/large-scale-cloud-native-radiance-field-training-for-streamable-assets-tickets-1994577276326?aff=TPCWebsite) on Eventbrite. The full run of show is on the [schedule page](/2026-event-schedule/).
+TPC 2026 ran online across two free days: **The Agentic Pipeline** on the morning of Tuesday 20 October, the **DPPA Online Speaker Series kickoff** with Alex Hughes of Miris that afternoon at 2:00pm, and **Core Pipeline Services** on the morning of Tuesday 27 October (mornings 9:00am – 12:00pm Pacific Time). All three are now free to watch on YouTube: [The Agentic Pipeline](https://youtu.be/bWvxBu_vVes), the [Speaker Series kickoff](https://youtu.be/FmnC742Ogvw) and [Core Pipeline Services](https://youtu.be/u6NRNxPXdTo). The full run of show is on the [schedule page](/2026-event-schedule/).
 
 ### The Agentic Pipeline — Tuesday 20 October, morning
 
 **Tuesday 20 October 2026 · 9:00am – 12:00pm Pacific Time**  
-**Online · Free to attend · Recorded**
+**Online · Recorded · [Watch the recording on YouTube](https://youtu.be/bWvxBu_vVes)**
 
 {{< speaker-grid ids="hanno-basse, bert-van-brande, fermi-perumal, cyrus-rahgoshay" >}}
 
@@ -29,21 +29,21 @@ While generative AI often focuses on generating raw media, the biggest productio
 ### Speaker Series kickoff — Tuesday 20 October, afternoon
 
 **Tuesday 20 October 2026 · 2:00pm – 3:00pm Pacific Time**  
-**Online · Free to attend · Recorded · Proudly sponsored by [Miris](https://www.miris.com/)**
+**Online · Recorded · [Watch the recording on YouTube](https://youtu.be/FmnC742Ogvw) · Proudly sponsored by [Miris](https://www.miris.com/)**
 
 {{< speaker-grid ids="alex-hughes" >}}
 
 **[Alex Hughes](https://www.linkedin.com/in/thealexhughes/) — Senior Software Engineer at Miris; previously founding engineer at Arch Platform Technologies and Head of Pipeline at Vitality VFX**  
 *Large Scale Cloud Native Radiance Field Training for Streamable Assets*  
 Alex Hughes is a Senior Software Engineer at Miris in Vancouver, BC, where he works on 3D asset streaming at internet scale. Before Miris he was a founding engineer at Arch Platform Technologies, bringing VFX and M&E studios into the cloud, and Head of Pipeline at Vitality VFX, after pipeline and compositing roles at Digital Domain and Zoic Studios. He also created SEPT, an open-source file-naming toolkit for VFX. His talk covers large scale cloud native radiance field training and what it takes to turn the results into assets that stream — the training infrastructure, the cost model, and the pipeline work in between.  
-[Register free on Eventbrite](https://www.eventbrite.com/e/large-scale-cloud-native-radiance-field-training-for-streamable-assets-tickets-1994577276326?aff=TPCWebsite)
+[Watch the recording on YouTube](https://youtu.be/FmnC742Ogvw)
 
-The afternoon of the 20th kicks off the DPPA Online Speaker Series as part of TPC 2026, proudly sponsored by **Miris**.
+The afternoon of the 20th kicked off the DPPA Online Speaker Series as part of TPC 2026, proudly sponsored by **Miris**.
 
 ### Core Pipeline Services — Tuesday 27 October, morning
 
 **Tuesday 27 October 2026 · 9:00am – 12:00pm Pacific Time**  
-**Online · Free to attend · Recorded**
+**Online · Recorded · [Watch the recording on YouTube](https://youtu.be/u6NRNxPXdTo)**
 
 {{< speaker-grid ids="cole-pearsall, dan-englesson, alan-mcseveney" >}}
 

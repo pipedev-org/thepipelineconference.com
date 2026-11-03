@@ -16,13 +16,13 @@ The Digital Production Pipeline Association is entirely volunteer-run and volunt
 - **The Pipeline Birds of a Feather day** at SIGGRAPH 2026
 - **The DPPA Online Speaker Series**, sponsoring our October session
 
-### The talk they are sponsoring
+### The talk they sponsored
 
-**[Large Scale Cloud Native Radiance Field Training for Streamable Assets](https://www.eventbrite.com/e/large-scale-cloud-native-radiance-field-training-for-streamable-assets-tickets-1994577276326?aff=TPCWebsite)**  
+**[Large Scale Cloud Native Radiance Field Training for Streamable Assets](https://youtu.be/FmnC742Ogvw)**  
 with **Alex Hughes**, Senior Software Engineer at Miris  
-**Tuesday 20 October 2026, 2:00 PM Pacific Time · Online · Free**
+**Tuesday 20 October 2026, 2:00 PM Pacific Time · Online · Recorded**
 
-[Register on Eventbrite →](https://www.eventbrite.com/e/large-scale-cloud-native-radiance-field-training-for-streamable-assets-tickets-1994577276326?aff=TPCWebsite)
+[Watch the recording on YouTube →](https://youtu.be/FmnC742Ogvw)
 
 ---
 

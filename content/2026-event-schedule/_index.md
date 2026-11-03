@@ -5,9 +5,9 @@ author: "Fran"
 
 # Session speakers are ids from data/tpc2026_speakers.yaml (photo, title, track record).
 programme:
-  eyebrow: "TPC 2026 · Online · Free to attend"
+  eyebrow: "TPC 2026 · Online · Free to watch"
   heading: "The 2026 online programme"
-  intro: 'TPC 2026 moved online from Vancouver, so this year anyone can join from anywhere. The programme our volunteers built runs across two free days in October: Tuesday 20 October, morning and afternoon, with the kickoff of the DPPA Online Speaker Series after The Agentic Pipeline; and Tuesday 27 October. The tenth Pipeline Awards follow in December. Every talk ends in live Q&A, and every session is recorded and published on <a href="https://www.youtube.com/@ThePipelineConference">The Pipeline Conference YouTube channel</a>.'
+  intro: 'TPC 2026 moved online from Vancouver, so this year anyone could join from anywhere. The programme our volunteers built ran across two free days in October: Tuesday 20 October, morning and afternoon, with the kickoff of the DPPA Online Speaker Series after The Agentic Pipeline; and Tuesday 27 October. Every talk ended in live Q&A, and all three sessions are now free to watch on <a href="https://www.youtube.com/@ThePipelineConference">The Pipeline Conference YouTube channel</a>. The tenth Pipeline Awards follow in December.'
   days:
     - eyebrow: "Tuesday 20 October · Morning"
       title: "The Agentic Pipeline"
@@ -15,12 +15,11 @@ programme:
       date: "Tuesday 20 October 2026"
       end_date: 2026-10-21
       time: "09:00 – 12:00 Pacific Time"
-      format: "Online · Free to attend · Recorded"
+      format: "Online · Recorded · Free to watch"
       accent: "cyan"
       cta_style: "btn-accent"
-      cta_text: "Register free on Luma"
-      cta_url: "https://luma.com/9kqv63oh"
-      body: "Agents are turning up in production pipelines faster than anyone has written the rules for them. We present three sessions on the work that puts them under pipeline control, from why the prompt is the wrong place for it, to a studio and a games publisher who have built the alternative."
+      video_url: "https://youtu.be/bWvxBu_vVes"
+      body: "Agents are turning up in production pipelines faster than anyone has written the rules for them. Three sessions on the work that puts them under pipeline control, from why the prompt is the wrong place for it, to a studio and a games publisher who have built the alternative."
       sessions:
         - tag: "Keynote"
           speakers:
@@ -48,12 +47,11 @@ programme:
       date: "Tuesday 20 October 2026"
       end_date: 2026-10-21
       time: "14:00 – 15:00 Pacific Time"
-      format: "Online · Free to attend · Recorded"
+      format: "Online · Recorded · Free to watch"
       accent: "green"
       cta_style: "btn-accent"
-      cta_text: "Register free on Eventbrite"
-      cta_url: "https://www.eventbrite.com/e/large-scale-cloud-native-radiance-field-training-for-streamable-assets-tickets-1994577276326?aff=TPCWebsite"
-      body: "Stay on after the morning programme. The afternoon of the 20th kicks off the DPPA Online Speaker Series with Alex Hughes of Miris, on training radiance fields at cloud scale and turning them into 3D assets that stream to any device."
+      video_url: "https://youtu.be/FmnC742Ogvw"
+      body: "The afternoon of the 20th kicked off the DPPA Online Speaker Series with Alex Hughes of Miris, on training radiance fields at cloud scale and turning them into 3D assets that stream to any device."
       sessions:
         - title: "Large Scale Cloud Native Radiance Field Training for Streamable Assets"
           speakers:
@@ -67,10 +65,9 @@ programme:
       date: "Tuesday 27 October 2026"
       end_date: 2026-10-28
       time: "09:00 – 12:00 Pacific Time"
-      format: "Online · Free to attend · Recorded"
+      format: "Online · Recorded · Free to watch"
       accent: "amber"
-      cta_text: "Register free on Luma"
-      cta_url: "https://luma.com/ofvxloqb"
+      video_url: "https://youtu.be/u6NRNxPXdTo"
       body: "The unglamorous half of the job, taken seriously: the format, the storage and the automation that everything else in a studio sits on top of. Classic Pipeline Conference content on the practical problems that decide whether a show ships."
       sessions:
         - title: "Introducing Agentic Workflows into Core Pipeline Automation & Governance"
@@ -97,7 +94,7 @@ programme:
       body: "Our awardees' work on screen, each of them speaking directly to the audience, messages from the judges, and open rooms on Discord afterwards. Nominations are closed and our independent panel has made its decisions."
 ---
 
-Registration is open and free for all three sessions: [The Agentic Pipeline](https://luma.com/9kqv63oh) and [Core Pipeline Services](https://luma.com/ofvxloqb) on Luma, and the [Speaker Series kickoff](https://www.eventbrite.com/e/large-scale-cloud-native-radiance-field-training-for-streamable-assets-tickets-1994577276326?aff=TPCWebsite) on Eventbrite. [Newsletter](https://newsletter.pipedev.org/forms/nfrm_BzLMaLXv) subscribers hear about everything else first.
+All three October sessions are now free to watch on YouTube: [The Agentic Pipeline](https://youtu.be/bWvxBu_vVes), the [Speaker Series kickoff](https://youtu.be/FmnC742Ogvw) and [Core Pipeline Services](https://youtu.be/u6NRNxPXdTo). [Newsletter](https://newsletter.pipedev.org/forms/nfrm_BzLMaLXv) subscribers hear about everything else first.
 
 ---
 

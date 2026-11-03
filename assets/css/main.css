@@ -122,6 +122,11 @@ img { max-width: 100%; display: block; }
     background-color: transparent; border-color: var(--color-hairline); color: var(--color-muted);
     opacity: .55; cursor: default; pointer-events: none;
 }
+/* Link to an event's recording on YouTube: a small play glyph before the label. */
+.btn-watch::before {
+    content: "\25B6\FE0E"; display: inline-block; font-size: .72em; margin-right: .6em;
+    vertical-align: .08em;
+}
 
 /* ---- header / masthead ---- */
 .site-header {

@@ -33,7 +33,10 @@
                     <div class="event-card-foot">
                         {{ $past := false }}
                         {{ with $event.end_date }}{{ if lt (time.AsTime .) now }}{{ $past = true }}{{ end }}{{ end }}
-                        {{ if $event.cta_url }}
+                        {{/* A recording link wins over registration, whatever the build date. */}}
+                        {{ if $event.video_url }}
+                        <a class="btn btn-watch {{ with $event.cta_style }}{{ . }}{{ else }}btn-accent{{ end }}" href="{{ $event.video_url }}" target="_blank" rel="noopener noreferrer">{{ default "Watch the recording" $event.video_text }}</a>
+                        {{ else if $event.cta_url }}
                         {{ if $past }}
                         <span class="btn btn-past" aria-disabled="true">{{ default "Event ended" $event.cta_past }}</span>
                         {{ else }}

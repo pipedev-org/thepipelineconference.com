@@ -17,7 +17,7 @@ event_address: "Watch the recordings from anywhere"
 event_date: "Tuesday 20 & Tuesday 27 October 2026"
 event_time: "Mornings 09:00 – 12:00 Pacific · Speaker Series kickoff 14:00 Pacific on the 20th"
 
-banner_blurb: "Two days of talks from people who have built production pipelines at Digital Domain, Stability AI, Pixar, Ubisoft, Sony Pictures Imageworks and The Mill, plus the kickoff of the DPPA Online Speaker Series with Alex Hughes of Miris. All three sessions are now free to watch on YouTube, and the tenth Pipeline Awards close out the year in December."
+banner_blurb: "Two days of talks from people who have built production pipelines at Digital Domain, Stability AI, Pixar, Ubisoft, Sony Pictures Imageworks and The Mill, plus the kickoff of the DPPA Online Speaker Series with Alex Hughes of Miris. All three sessions are now free to watch on YouTube, and the tenth Pipeline Awards close out the year on Tuesday 15 December."
 
 # The hero shows these bullets in place of the blurb (the blurb stays as the meta description).
 # Markdown is allowed: lead with a bold phrase so the list scans.
@@ -25,7 +25,7 @@ banner_points:
   - "**Two days of talks, free to watch** from people who have built production pipelines at Digital Domain, Stability AI, Pixar, Ubisoft, Sony Pictures Imageworks and The Mill"
   - "**DPPA Online Speaker Series kickoff** with Alex Hughes of Miris, recorded on the afternoon of the 20th"
   - "**Every talk ended in live Q&A** with the speakers"
-  - "**The tenth Pipeline Awards** close out the year in December"
+  - "**The tenth Pipeline Awards** stream free on Tuesday 15 December at 9:00am Pacific Time: <a href=\"https://luma.com/hvrcu94q\" target=\"_blank\" rel=\"noopener noreferrer\">register on Luma</a>"
 
 # The October sessions are over, so the hero buttons link to their YouTube recordings.
 banner_buttons:
@@ -96,7 +96,7 @@ spotlights:
 online_events:
   eyebrow: "TPC 2026 · Online · Free"
   heading: "Two days of talks and an awards show"
-  intro: "We moved TPC 2026 online from Vancouver, and the room got a whole lot bigger. Tuesday 20 October ran morning and afternoon: The Agentic Pipeline, then the kickoff of the DPPA Online Speaker Series with Alex Hughes of Miris. Core Pipeline Services followed on the 27th. All three sessions are now free to watch on YouTube, and the tenth Pipeline Awards close out the year: <a href=\"/2026-event-schedule/\">see the full run of show</a>, or <a href=\"https://newsletter.pipedev.org/forms/nfrm_BzLMaLXv\">subscribe to our newsletter</a> to hear about the Awards Show first."
+  intro: "We moved TPC 2026 online from Vancouver, and the room got a whole lot bigger. Tuesday 20 October ran morning and afternoon: The Agentic Pipeline, then the kickoff of the DPPA Online Speaker Series with Alex Hughes of Miris. Core Pipeline Services followed on the 27th. All three sessions are now free to watch on YouTube, and the tenth Pipeline Awards close out the year on Tuesday 15 December, streamed free from 9:00am Pacific Time: <a href=\"https://luma.com/hvrcu94q\" target=\"_blank\" rel=\"noopener noreferrer\">register free on Luma</a>, <a href=\"/2026-event-schedule/\">see the full run of show</a>, or <a href=\"https://newsletter.pipedev.org/forms/nfrm_BzLMaLXv\">subscribe to our newsletter</a> for news from TPC."
   items:
     - eyebrow: "Tuesday 20 October · Morning"
       title: "The Agentic Pipeline"
@@ -146,18 +146,19 @@ online_events:
       accent: "amber"
       body: "The three layers everything else in a studio sits on: the format, the storage, the automation. Getting to OpenUSD without stalling halfway; taking I/O out of the critical path for rendering, playback and cloud bursting; and handing tedious QC checks to agents on the artist's own workstation, with no proprietary data leaving the building."
       video_url: "https://youtu.be/u6NRNxPXdTo"
-    - eyebrow: "December 2026"
+    - eyebrow: "Tuesday 15 December"
       title: "The Pipeline Awards Show"
       subtitle: "Closing out the year on the TPC YouTube channel"
-      date: "December 2026"
-      date_tba: true
-      format: "Streamed show · Free"
+      date: "Tuesday 15 December 2026"
+      end_date: 2026-12-16
+      format: "09:00 Pacific · Streamed show · Free"
       speakers: "Announced on the night"
       cost: "Free"
       accent: "purple"
-      body: "The tenth Pipeline Awards, now its own produced show. We present our awardees' work on screen, with each of them speaking to you directly, messages from the judges, and open rooms on Discord afterwards so you can talk to the people whose tools you depend on."
-      cta_text: "About the awards"
-      cta_url: "/pipeline-awards/"
+      body: "The tenth Pipeline Awards, now its own produced show. We present our awardees' work on screen, with each of them speaking to you directly, messages from the judges, and open rooms on Discord afterwards so you can talk to the people whose tools you depend on. Read more <a href=\"/pipeline-awards/\">about the awards</a>."
+      cta_text: "Register free on Luma"
+      cta_url: "https://luma.com/hvrcu94q"
+      cta_style: "btn-accent"
 
 # Who TPC is for, and the case for two mornings off (Michael Herrera's feedback, Oct 2026).
 the_case:
@@ -206,7 +207,7 @@ why_attend:
       link_text: "See the schedule"
       link_url: "/2026-event-schedule/"
     - title: "Celebrate the latest advances with the Pipeline Awards"
-      body: "The tenth Pipeline Awards close out the year in December. Nominations are closed and our independent panel has made its decisions, across two categories: Pipeline Project of the Year, for the tools that save studios months of work, and Pipeline Hero of the Year, for the people who build them."
+      body: "The tenth Pipeline Awards close out the year on Tuesday 15 December, streamed free at 9:00am Pacific Time. Nominations are closed and our independent panel has made its decisions, across two categories: Pipeline Project of the Year, for the tools that save studios months of work, and Pipeline Hero of the Year, for the people who build them."
       image: "/uploads/2026/07/TPC2026-awards-scaled.png"
       alt: "The Pipeline Awards title card over a night-time photograph of the Vancouver skyline."
       fit: "contain"

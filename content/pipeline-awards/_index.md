@@ -10,11 +10,11 @@ author: "Iris Hwang"
 
 Thank you to everyone who put a project or a person forward. Submissions have closed and our independent panel of judges has made its decisions. Awardees are being contacted directly.
 
-> ### The Pipeline Awards Show — December 2026
+> ### The Pipeline Awards Show — Tuesday 15 December 2026
 >
 > The 10th Pipeline Awards will be presented as a featured show, streamed on [The Pipeline Conference YouTube channel](https://www.youtube.com/@ThePipelineConference), closing out our 2026 programme. Our awardees' work will be on screen, each of them speaking to you directly from wherever they are, alongside messages from the judges. Afterwards we will open rooms on [Discord](https://discord.gg/PU8hygUfbf) so you can talk to the people whose tools you depend on.
 >
-> **The date will be announced shortly.** [Subscribe to our newsletter](https://newsletter.pipedev.org/forms/nfrm_BzLMaLXv) to get it first.
+> **Streamed free on Tuesday 15 December 2026, starting at 9:00am Pacific Time.** <a href="https://luma.com/hvrcu94q" target="_blank" rel="noopener noreferrer">Register free on Luma</a>, or [subscribe to our newsletter](https://newsletter.pipedev.org/forms/nfrm_BzLMaLXv) for news from TPC.
 
 The Pipeline Awards recognizes excellence in the development and integration of CG pipelines. The tools and people that save loads of time and mix creative genius with a clear grasp of how to make a laborious process easier and faster. This is why we have created the Awards. In this story, they are the hero! And we want to celebrate them and their work!
 

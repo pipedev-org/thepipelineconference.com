@@ -7,7 +7,7 @@ author: "Fran"
 programme:
   eyebrow: "TPC 2026 · Online · Free to watch"
   heading: "The 2026 online programme"
-  intro: 'TPC 2026 moved online from Vancouver, so this year anyone could join from anywhere. The programme our volunteers built ran across two free days in October: Tuesday 20 October, morning and afternoon, with the kickoff of the DPPA Online Speaker Series after The Agentic Pipeline; and Tuesday 27 October. Every talk ended in live Q&A, and all three sessions are now free to watch on <a href="https://www.youtube.com/@ThePipelineConference">The Pipeline Conference YouTube channel</a>. The tenth Pipeline Awards follow in December.'
+  intro: 'TPC 2026 moved online from Vancouver, so this year anyone could join from anywhere. The programme our volunteers built ran across two free days in October: Tuesday 20 October, morning and afternoon, with the kickoff of the DPPA Online Speaker Series after The Agentic Pipeline; and Tuesday 27 October. Every talk ended in live Q&A, and all three sessions are now free to watch on <a href="https://www.youtube.com/@ThePipelineConference">The Pipeline Conference YouTube channel</a>. The tenth Pipeline Awards follow on Tuesday 15 December at 9:00am Pacific Time, streamed free: <a href="https://luma.com/hvrcu94q" target="_blank" rel="noopener noreferrer">register on Luma</a>.'
   days:
     - eyebrow: "Tuesday 20 October · Morning"
       title: "The Agentic Pipeline"
@@ -82,16 +82,18 @@ programme:
             - id: "alan-mcseveney"
           abstract: "Alan McSeveney, a veteran technologist, co-founded the entirely cloud-native studio Preymaker and spent over a decade leading technology at The Mill. He shares how unifying studio storage into a single high-performance architecture eliminates data bottlenecks across complex VFX rendering, real-time playback and cloud-bursting pipelines. Drawing on his deep studio background, Alan demonstrates how removing those I/O limits enables production teams to scale traditional visual effects while seamlessly preparing their infrastructure for next-generation generative AI workloads."
 
-    - eyebrow: "December 2026"
+    - eyebrow: "Tuesday 15 December"
       title: "The Pipeline Awards Show"
       subtitle: "The tenth Pipeline Awards, as a produced show"
-      date: "December 2026"
-      date_tba: true
+      date: "Tuesday 15 December 2026"
+      end_date: 2026-12-16
+      time: "09:00 Pacific Time"
       format: "Streamed on the TPC YouTube channel · Free"
       accent: "purple"
-      cta_text: "About the awards"
-      cta_url: "/pipeline-awards/"
-      body: "Our awardees' work on screen, each of them speaking directly to the audience, messages from the judges, and open rooms on Discord afterwards. Nominations are closed and our independent panel has made its decisions."
+      cta_text: "Register free on Luma"
+      cta_url: "https://luma.com/hvrcu94q"
+      cta_style: "btn-accent"
+      body: "Our awardees' work on screen, each of them speaking directly to the audience, messages from the judges, and open rooms on Discord afterwards. Nominations are closed and our independent panel has made its decisions. Read more <a href=\"/pipeline-awards/\">about the awards</a>."
 ---
 
 All three October sessions are now free to watch on YouTube: [The Agentic Pipeline](https://youtu.be/bWvxBu_vVes), the [Speaker Series kickoff](https://youtu.be/FmnC742Ogvw) and [Core Pipeline Services](https://youtu.be/u6NRNxPXdTo). [Newsletter](https://newsletter.pipedev.org/forms/nfrm_BzLMaLXv) subscribers hear about everything else first.

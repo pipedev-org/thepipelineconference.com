@@ -13,7 +13,11 @@
     {{ partial "pipeline-awards-showcase.html" . }}
     {{ partial "content.html" . }}
     {{ partial "footer.html" . }}
-    <script src="{{ printf "%s?v=9" ("js/pipeline-awards.js" | relURL) }}"></script>
+    {{/* Fingerprinted so the filename changes whenever the script does. Browsers and the
+         GitHub Pages CDN cache /js/pipeline-awards.<hash>.js and simply fetch a new URL
+         on the next deploy, instead of running a stale script. */}}
+    {{ $js := resources.Get "js/pipeline-awards.js" | fingerprint "sha256" }}
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 </body>
 
 </html>

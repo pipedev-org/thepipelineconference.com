@@ -18,11 +18,14 @@
         {{ with .eyebrow }}<p class="hero-feature-eyebrow">{{ . }}</p>{{ end }}
         <h2 class="hero-feature-title" id="hero-feature-title">{{ .title }}</h2>
         {{ if or $date .time .format }}
-        <p class="hero-feature-when">
-            {{ with $date }}<time datetime="{{ .Format "2006-01-02" }}">{{ .Format "Monday 2 January 2006" }}</time>{{ end }}
-            {{ with .time }}<span class="hero-feature-sep" aria-hidden="true">·</span> <span>{{ . }}</span>{{ end }}
-            {{ with .format }}<span class="hero-feature-sep" aria-hidden="true">·</span> <span>{{ . }}</span>{{ end }}
-        </p>
+        {{/* Each segment is unbreakable and draws its own leading "·". A segment that wraps
+             to a new line has its "·" clipped off (see .hero-feature-when in main.css),
+             so a separator never dangles at the end or start of a line. */}}
+        <p class="hero-feature-when"><span class="hero-feature-when-list">
+            {{ with $date }}<time class="hero-feature-when-item" datetime="{{ .Format "2006-01-02" }}">{{ .Format "Monday 2 January 2006" }}</time>{{ end }}
+            {{ with .time }}<span class="hero-feature-when-item">{{ . }}</span>{{ end }}
+            {{ with .format }}<span class="hero-feature-when-item">{{ . }}</span>{{ end }}
+        </span></p>
         {{ end }}
         {{ with .description }}<p class="hero-feature-desc">{{ . | markdownify }}</p>{{ end }}
     </div>

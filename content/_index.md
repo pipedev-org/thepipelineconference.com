@@ -25,7 +25,25 @@ banner_points:
   - "**Two days of talks, free to watch** from people who have built production pipelines at Digital Domain, Stability AI, Pixar, Ubisoft, Sony Pictures Imageworks and The Mill"
   - "**DPPA Online Speaker Series kickoff** with Alex Hughes of Miris, recorded on the afternoon of the 20th"
   - "**Every talk ended in live Q&A** with the speakers"
-  - "**The tenth Pipeline Awards** stream free on Tuesday 15 December at 9:00am Pacific Time: <a href=\"https://luma.com/hvrcu94q\" target=\"_blank\" rel=\"noopener noreferrer\">register on Luma</a>"
+
+# The next big event, as a callout card in the hero just under the TPC 2026 block.
+# It removes itself once end_date has passed. Delete or comment out to hide it sooner.
+hero_feature:
+  eyebrow: "Next up · The tenth Pipeline Awards"
+  title: "The Pipeline Awards Show"
+  date: 2026-12-15
+  time: "9:00am Pacific Time"
+  format: "Streamed free online"
+  description: "Our awardees' work on screen, messages from the judges, then open rooms on Discord."
+  accent: "purple"
+  end_date: 2026-12-16
+  buttons:
+    - text: "Register free on Luma"
+      url: "https://luma.com/hvrcu94q"
+      style: "btn-feature"
+    - text: "Meet the nominees"
+      url: "/pipeline-awards/"
+      style: "btn-ghost"
 
 # The October sessions are over, so the hero buttons link to their YouTube recordings.
 banner_buttons:

@@ -1,0 +1,39 @@
+{{/* The next big event, as a callout card in the home hero under the TPC edition block.
+     Content comes from hero_feature in the home page front matter. The card removes itself
+     once end_date has passed, using the same check as the event cards in events-2026.html. */}}
+{{ with .Params.hero_feature }}
+{{ $past := false }}
+{{ with .end_date }}{{ if lt (time.AsTime .) now }}{{ $past = true }}{{ end }}{{ end }}
+{{ if not $past }}
+{{ $date := "" }}{{ with .date }}{{ $date = time.AsTime . }}{{ end }}
+<section class="hero-feature hero-feature--{{ default "cyan" .accent }}" aria-labelledby="hero-feature-title">
+    {{ with $date }}
+    <div class="hero-feature-tile" aria-hidden="true">
+        <span class="hero-feature-tile-month">{{ .Format "Jan" }}</span>
+        <span class="hero-feature-tile-day">{{ .Format "2" }}</span>
+        <span class="hero-feature-tile-weekday">{{ .Format "Mon" }}</span>
+    </div>
+    {{ end }}
+    <div class="hero-feature-body">
+        {{ with .eyebrow }}<p class="hero-feature-eyebrow">{{ . }}</p>{{ end }}
+        <h2 class="hero-feature-title" id="hero-feature-title">{{ .title }}</h2>
+        {{ if or $date .time .format }}
+        <p class="hero-feature-when">
+            {{ with $date }}<time datetime="{{ .Format "2006-01-02" }}">{{ .Format "Monday 2 January 2006" }}</time>{{ end }}
+            {{ with .time }}<span class="hero-feature-sep" aria-hidden="true">·</span> <span>{{ . }}</span>{{ end }}
+            {{ with .format }}<span class="hero-feature-sep" aria-hidden="true">·</span> <span>{{ . }}</span>{{ end }}
+        </p>
+        {{ end }}
+        {{ with .description }}<p class="hero-feature-desc">{{ . | markdownify }}</p>{{ end }}
+    </div>
+    {{ with .buttons }}
+    <div class="hero-feature-actions">
+        {{ range . }}
+        {{ $external := hasPrefix .url "http" }}
+        <a class="btn {{ default "btn-feature" .style }}" href="{{ if $external }}{{ .url }}{{ else }}{{ .url | relURL }}{{ end }}"{{ if $external }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .text }}</a>
+        {{ end }}
+    </div>
+    {{ end }}
+</section>
+{{ end }}
+{{ end }}

@@ -233,6 +233,56 @@ img { max-width: 100%; display: block; }
 .banner-points strong { color: var(--color-ink); font-weight: 700; }
 .banner-points a { color: var(--color-cyan); }
 
+/* ---- hero: the next big event as a callout card (Awards Show, Dec 2026) ---- */
+.hero-feature {
+    --hf-accent: var(--color-cyan); --hf-text: var(--color-cyan);
+    --hf-tint: rgba(77, 208, 225, .12); --hf-line: rgba(77, 208, 225, .5); --hf-rule: linear-gradient(90deg, var(--spectrum-cyan), var(--spectrum-blue));
+    position: relative; overflow: hidden; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 20px 22px;
+    max-width: 760px; margin: 0 auto 32px; padding: 22px 22px 20px; text-align: left;
+    background: linear-gradient(120deg, var(--hf-tint), rgba(20, 24, 30, .35) 70%), rgba(20, 24, 30, .72);
+    border: 1px solid var(--hf-line); border-radius: var(--radius-lg); box-shadow: 0 10px 36px rgba(0, 0, 0, .35);
+}
+.hero-feature--purple {
+    --hf-accent: var(--spectrum-purple); --hf-text: #b3a8ec;
+    --hf-tint: rgba(138, 122, 212, .2); --hf-line: rgba(138, 122, 212, .6); --hf-rule: linear-gradient(90deg, var(--spectrum-purple), var(--spectrum-blue));
+}
+.hero-feature::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 3px; background: var(--hf-rule); }
+.hero-feature-tile {
+    display: flex; flex-direction: column; align-items: center; justify-content: center; width: 76px; padding: 9px 0 10px;
+    border-radius: var(--radius-md); background: var(--hf-accent); color: #101418; line-height: 1; text-transform: uppercase;
+}
+.hero-feature-tile-month, .hero-feature-tile-weekday { font-family: var(--font-mono); font-size: 11px; font-weight: 600; letter-spacing: .14em; }
+.hero-feature-tile-day { font-family: var(--font-display); font-size: 2.3em; font-weight: 800; letter-spacing: -.02em; margin: 3px 0 4px; }
+.hero-feature-body { min-width: 0; }
+.hero-feature-eyebrow { font-family: var(--font-mono); font-size: 11px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--hf-text); margin: 0 0 6px; }
+.hero-feature-title { font-family: var(--font-display); font-size: 1.6em; font-weight: 800; line-height: 1.12; letter-spacing: -.01em; color: var(--color-ink); margin: 0; }
+.hero-feature-when { font-family: var(--font-display); font-size: 1.02em; font-weight: 700; line-height: 1.4; color: var(--hf-text); margin: 6px 0 0; }
+.hero-feature-when > span:not(.hero-feature-sep) { display: inline-block; }
+.hero-feature-sep { margin: 0 .2em; opacity: .7; }
+.hero-feature-desc { color: #d6dde6; font-size: .97em; line-height: 1.5; margin: 6px 0 0; }
+.hero-feature-actions { display: flex; flex-direction: column; gap: 10px; }
+.hero-feature-actions .btn { padding: 11px 18px; text-align: center; white-space: nowrap; }
+.btn-feature { background-color: var(--hf-accent); border-color: var(--hf-accent); color: #101418; }
+.btn-feature:hover { background-color: var(--hf-text); border-color: var(--hf-text); color: #101418; }
+@media (max-width: 760px) {
+    /* Tile beside the eyebrow and title; date line, description and buttons run full width. */
+    .hero-feature { grid-template-columns: auto 1fr; align-items: center; padding: 20px 18px 18px; gap: 0 16px; }
+    .hero-feature-tile { grid-row: 1 / span 2; }
+    .hero-feature-body { display: contents; }
+    .hero-feature-eyebrow { grid-column: 2; align-self: end; }
+    .hero-feature-title { grid-column: 2; align-self: start; }
+    .hero-feature-when, .hero-feature-desc { grid-column: 1 / -1; }
+    .hero-feature-when { margin-top: 14px; }
+    .hero-feature-actions { grid-column: 1 / -1; flex-direction: row; flex-wrap: wrap; margin-top: 16px; }
+    .hero-feature-actions .btn { flex: 1 1 auto; }
+}
+@media (max-width: 420px) {
+    .hero-feature-tile { width: 62px; padding: 8px 0 9px; }
+    .hero-feature-tile-day { font-size: 1.9em; }
+    .hero-feature-title { font-size: 1.32em; }
+    .hero-feature-when { font-size: .95em; }
+}
+
 /* ---- status notice (cancellation / change of plan) ---- */
 .status-notice { background: #2a1d1d; border-top: 1px solid #7a3b33; border-bottom: 1px solid #7a3b33; }
 .status-notice-inner { max-width: var(--max-width); margin: 0 auto; padding: 22px 24px; display: flex; gap: 18px; align-items: flex-start; }

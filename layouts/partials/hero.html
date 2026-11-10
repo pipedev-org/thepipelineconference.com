@@ -30,6 +30,7 @@
                     {{ with .Params.event_time }}<span class="banner-time">{{ range $i, $seg := split . " · " }}{{ if $i }} · {{ end }}<span class="banner-time-seg">{{ $seg }}</span>{{ end }}</span>{{ end }}
                 </p>
                 {{ end }}
+                {{ partial "hero-feature.html" . }}
                 {{ with .Params.banner_points }}
                 <ul class="banner-points">
                     {{ range . }}<li>{{ . | markdownify }}</li>{{ end }}
